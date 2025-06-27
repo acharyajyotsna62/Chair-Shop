@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.header-section{
+    margin: 70px;
+    display: flex;
+}
+
+.text-section{
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.header-section img{
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.text-section h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.text-section p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.text-section button{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #087f5b;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-section button:hover{
+    background-color: #035c41;
+}
+
+
+/* Main Section */
+
+.main-section{
+    margin: 70px;
+}
+
+.main-section h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.objectives{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.objectives i{
+    font-size: 30px;
+    color: #087f5b;
+    margin-bottom: 10px;
+}
+
+.objectives p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.objectives div{
+    margin-right: 20px;
+}
+
+
+/* Review Section */
+
+
+.review{
+    margin: 70px;
+    height: 300px;
+    width: auto;
+    background-color: #087f5b;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    color: white;
+}
+
+.review img{
+    margin-right: 60px;
+    border-radius: 15px;
+}
+
+.review-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-section h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.review-section p{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+
+/* Best Selling Section */
+
+.bestseller{
+    margin: 70px;
+}
+
+.bestseller h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.top-products{
+    display: flex;
+}
+
+.products{
+    width: 400px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: #ccc;
+}
+
+.products img{
+    width: 400px;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.products h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.features{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.payment{
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.payment button{
+    background-color: #087f5b;
+    color:  white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.payment button:hover{
+    background-color:#035c41;
+}
+
+.payment p{
+    font-weight: bolder;
+}
+
+.copyright{
+    background-color: #035c41;
+    padding: 10px;
+}
+
+.copyright p{
+    color: white;
+    text-align: center;
+}
